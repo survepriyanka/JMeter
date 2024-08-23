@@ -26,9 +26,11 @@
   1.Add Thread group
   2.jdbc connection configuration : we will define the database URL, JDBC driver class, the MySQL  username and password, etc.
     -jdbc:sqlserver://[serverName[\instanceName][:portNumber]][;property=value[;property=value]]
+
     -Variable Name: This value will be used in our JDBC Sampler. In case there is more than one SQL connection, JDBC request will use the right DB Connection by using this value.
+  
     -Connection Pool Configuration: Leave it as it is. These values are good enough for a performance test. In case it’s needed, increasing or decreasing the values is a possibilities.
-    -jdbc request : we define the query (Select * from abc)
+
     -Listener : To check result
 
 

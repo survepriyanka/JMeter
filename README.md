@@ -20,10 +20,15 @@
 
 * Database Testing using “JDBC Connection configuration"
    -DBC Driver Class: It’s different for every Database vendor
+  
    -Mysql uses com.mysql.jdbc.Driver
+  
    -Oracle uses oracle.jdbc.driver.OracleDriver
+  
    -Microsoft uses com.microsoft.sqlserver.jdbc.SQLServerDriver
+  
   1.Add Thread group
+  
   2.jdbc connection configuration : we will define the database URL, JDBC driver class, the MySQL  username and password, etc.
     -jdbc:sqlserver://[serverName[\instanceName][:portNumber]][;property=value[;property=value]]
 
